@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 #wrapper {
 	background-color: #444444;
 }
@@ -80,6 +84,10 @@ section h1 {
 	height: 300px;
 	border-radius: 40px;
 	background-color: #9a9a9a;
+}
+
+#skills-wrapper article:hover {
+	border: 5px solid orange;
 }
 
 form {

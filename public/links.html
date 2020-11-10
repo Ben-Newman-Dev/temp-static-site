@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Links</title>
-        <link href="./assets/Styles/Global/keyframes.css" rel="stylesheet">
         <link href="./assets/Styles/Global/header.css" rel="stylesheet">
         <link href="./assets/Styles/Links/links.css" rel="stylesheet">
         <link href="./assets/Styles/Global/footer.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="./assets/js/links.js" defer></script>
     </head>
     <body>
         <div id="wrapper">
@@ -30,7 +31,19 @@
             </nav>
             <main>
                 <div class="links">
-                    
+                    <h1>Links</h1>
+                    <div id="linkwrapper">
+                        <div class="link-column">
+                            <a data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/ben.newman.3766"><img onmouseout="SVGOver(this, 1)" onmouseover="SVGOver(this, 0)" src="./assets/images/links/unfocused/facebook.svg"></a>
+                            <a data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/benjamin-s-newman/"><img onmouseout="SVGOver(this, 1)" onmouseover="SVGOver(this, 0)" src="./assets/images/links/unfocused/linkedin.svg"></a>
+                            <a data-toggle="tooltip" title="YouTube" href="https://youtube.com/channel/UCU4b56cNKu0kZZ2jdNToNIQ"><img onmouseout="SVGOver(this, 1)" onmouseover="SVGOver(this, 0)" src="./assets/images/links/unfocused/youtube.svg"></a>
+                        </div>
+                        <div class="link-column">
+                            <a data-toggle="tooltip" title="GitHub" href="https://github.com/jam1nb3n"><img onmouseout="SVGOver(this, 1)" onmouseover="SVGOver(this, 0)" src="./assets/images/links/unfocused/github.svg"></a>
+                            <a data-toggle="tooltip" title="Freelancer" href="https://www.freelancer.com/u/benewman"><img onmouseout="SVGOver(this, 1)" onmouseover="SVGOver(this, 0)" src="./assets/images/links/unfocused/freelancer.svg"></a>
+                            <a data-toggle="tooltip" title="Twitter" href="https://twitter.com/dev_newman"><img onmouseout="SVGOver(this, 1)" onmouseover="SVGOver(this, 0)" src="./assets/images/links/unfocused/twitter.svg"></a>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
