@@ -93,3 +93,29 @@ section h1 {
 form {
 	display: inline;
 }
+
+@media only screen and (max-width: 1400px) {
+	main article {
+		margin: auto;
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		align-content: center;
+		margin-top: 30px;
+	}
+
+	main article p {
+		text-align: center;
+		width: 70%;
+	}
+
+	main article button {
+		width: 80%;
+	}
+
+	main article form {
+		width: 100%;
+	}
+}

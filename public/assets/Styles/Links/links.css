@@ -29,3 +29,10 @@ body {
 .link-column img {
 	margin-bottom: 5vh;
 }
+
+@media only screen and (max-width: 800px) {
+	.link-column {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

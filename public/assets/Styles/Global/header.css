@@ -25,6 +25,7 @@ nav {
 	height: auto;
 	object-fit: contain;
 	max-width: 130px;
+	min-width: 60px;
 }
 
 #logo h1 {
@@ -91,4 +92,42 @@ nav {
 	cursor: pointer;
 	transform: scale(1.1);
 	transition: 0.4s;
+}
+
+@media only screen and (max-width: 1210px) {
+	nav {
+		flex-direction: column;
+		width: 100%;
+		height: 200px;
+	}
+
+	#nav-links {
+		width: 95%;
+		justify-content: space-evenly;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+		height: 340px;
+	}
+
+	#nav-links {
+		position: relative;
+		top: -10px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#nav-links a {
+		margin: 0 0;
+		padding: 0 0;
+		margin-top: 10px;
+		width: 110.99%;
+		text-align: center;
+	}
+
+	#contact-me {
+		margin-top: 10px;
+	}
 }
