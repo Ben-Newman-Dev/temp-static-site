@@ -1,0 +1,39 @@
+body {
+	background-color: #cacaca;
+}
+
+main h1 {
+	text-align: center;
+	font-family: "Share Tech Mono";
+	font-size: 64px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+main section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+main section div {
+	border-radius: 40px;
+	margin-bottom: 30vh;
+}
+
+#aboutmeleft {
+	width: 50%;
+	background-color: #2b2b2b;
+	padding: 40px;
+	color: white;
+}
+
+main section p {
+	font-size: 36px;
+	font-family: "Share Tech";
+}
+
+main section img {
+	border: 9px solid black;
+	border-radius: 40px;
+}

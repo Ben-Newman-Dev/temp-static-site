@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+		<link href="./assets/Styles/Global/header.css" rel="stylesheet" />
+		<link href="./assets/Styles/Plans/plans.css" rel="stylesheet" />
+		<link href="./assets/Styles/Global/footer.css" rel="stylesheet" />
+    </head>
+    <body>
+            <header id="wrapper">
+                <nav>
+                    <div id="logo">
+                        <img src="./assets/logo.png" alt="BenDev" />
+                        <h1>BNewman.dev</h1>
+                    </div>
+                    <div id="nav-links">
+                        <a class="inactive" href="./index.html">Home</a>
+                        <a class="active" href="./plans.html">My Plans</a>
+                        <a class="inactive" href="./about-me.html">About Me</a>
+                        <a class="inactive" href="">My Projects</a>
+                        <a class="inactive" href="./links.html">Links</a>
+                        <button id="contact-me" href="">Contact Me</button>
+                    </div>
+                </nav>
+            <main>
+                <h1>My Plans</h1>
+                <div class="plans-flex-container">
+                    <div>
+                        <h1>Food Blog Website</h1>
+                        <article class="plans-right-align">
+                            <img src="https://via.placeholder.com/166x170.png">
+                            <p>
+                                I am working on a group project for university. The original project was a UX project to design a high-fidelity prototype however a few of us decided to start develop that website into a fully working website, complete with an API with authentication with JWT and a MongoDB database.
+                            </p>
+                        </article>
+                    </div>
+                    <div>
+                        <h1>This Website - bnewman.dev</h1>
+                        <article class="plans-right-align">
+                            <img src="https://via.placeholder.com/166x170.png">
+                            <p>
+                                This website is currently written purely in HTML, CSS and JS with future plans to re-write in vue.js. The domain points to a VPS server running nginx listening on port 443 with an SSL certificate issued by letsencrypt. Nginx is set up as a reverse proxy server which directs incoming traffc to a Node.js server which (at the moment) statically serves the pages.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <section>
+                <h1>More Coming Soon!</h1>
+            </section>
+            <footer>
+                <div>
+                    <span>© Copyright 2020 Ben Newman</span><span> | </span
+                    ><span>All Rights Reserved</span>
+                </div>
+            </footer>
+        </body>
+</html>
