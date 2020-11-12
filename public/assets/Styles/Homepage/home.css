@@ -118,4 +118,8 @@ form {
 	main article form {
 		width: 100%;
 	}
+
+	main article a {
+		width: 100%;
+	}
 }
