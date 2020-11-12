@@ -41,6 +41,11 @@ main article p {
 	width: 80%;
 }
 
+main article a {
+	font-size: 36px;
+	color: #ef7c1a;
+}
+
 main {
 	margin-bottom: 30vh;
 }
