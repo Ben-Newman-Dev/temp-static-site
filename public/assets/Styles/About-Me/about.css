@@ -37,3 +37,9 @@ main section img {
 	border: 9px solid black;
 	border-radius: 40px;
 }
+
+@media only screen and (max-width: 1200px) {
+	main section {
+		flex-direction: column;
+	}
+}
