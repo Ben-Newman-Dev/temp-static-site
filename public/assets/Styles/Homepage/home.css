@@ -90,6 +90,53 @@ section h1 {
 	border: 5px solid orange;
 }
 
+#skills-wrapper-2 {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	flex: 1;
+}
+
+#skills-wrapper-2 article {
+	margin-bottom: 34px;
+	width: 400px;
+	height: 300px;
+	border-radius: 40px;
+	background-color: #9a9a9a;
+}
+
+#skills-wrapper-2 article:hover {
+	border: 5px solid orange;
+}
+
+section div article {
+	text-align: center;
+	font-style: normal;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+section div article img {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 15px;
+}
+
+section div a {
+	text-decoration: none;
+	color: black;
+	font-family: "Slabo 13px";
+	vertical-align: middle;
+}
+
+section div article h3 {
+	font-size: 30px;
+	font-family: "Slabo 13px";
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
 form {
 	display: inline;
 }

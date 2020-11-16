@@ -1,0 +1,72 @@
+{
+	"known": [
+		{
+			"title": "JavaScript",
+			"body": "I have practical experience with Javascript both in browser and server side utilizing node.js. Javascript is a high level programming language primarily used for client-side web scripting",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png",
+			"link": "https://en.wikipedia.org/wiki/JavaScript"
+		},
+		{
+			"title": "Python",
+			"body": "I have experience with Python, specifically with scripting tools and pen-testing. I am also being taught basic python at university.",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
+			"link": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+		},
+		{
+			"title": "C#",
+			"body": "I have been using C# for a couple of years, specifically with Visual Studio and .NET. I have used the WPF framework in order to make GUI programs.",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg",
+			"link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+		},
+		{
+			"title": "HTML",
+			"body": "I have been using HTML for aroung 8 years or so. I have used HTML to create a number of static websites",
+			"image": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png",
+			"link": "https://en.wikipedia.org/wiki/HTML"
+		},
+		{
+			"title": "CSS",
+			"body": "I have used CSS in order to style the webpages that I have made. I normally write all my own CSS and I don't tend to use style libraries",
+			"image": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
+			"link": "https://en.wikipedia.org/wiki/CSS"
+		},
+		{
+			"title": "PenTesting",
+			"body": "I have experience on HackTheBox CTF challenges. I have used Kali Linux in order to exploit test servers and have used these skills to test the security of my own websites and servers",
+			"image": "https://www.kali.org/wp-content/uploads/2019/12/kali-square.png",
+			"link": "https://en.wikipedia.org/wiki/Kali_Linux"
+		},
+		{
+			"title": "Linux",
+			"body": "I have used Kali Linux, Ubuntu, CentOS and Mint Linux based Operating Systems. This includes bash only server distros of Ubuntu and CentOS",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Classic_flat_look_3D.svg/155px-Classic_flat_look_3D.svg.png",
+			"link": "https://en.wikipedia.org/wiki/Linux"
+		}
+	],
+	"learn": [
+		{
+			"title": "AWS",
+			"body": "I plan on studying and obtaining the associate level of the AWS Certified Solutions Architect. This is to learn about how systems are organised within the Amazon ecosystem",
+			"image": "https://media-exp1.licdn.com/dms/image/C4D0BAQGeyEk8mf0enA/company-logo_200_200/0?e=2159024400&v=beta&t=gEulY-0cdIm8a5VQSwk4Yy5IIeIqV7MrxVnKLccOeAc",
+			"link": "https://en.wikipedia.org/wiki/Amazon_Web_Services"
+		},
+		{
+			"title": "Docker",
+			"body": "",
+			"image": "https://raw.githubusercontent.com/docker-library/docs/c350af05d3fac7b5c3f6327ac82fe4d990d8729c/docker/logo.png",
+			"link": "https://en.wikipedia.org/wiki/Docker_(software)"
+		},
+		{
+			"title": "GraphQL",
+			"body": "",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1024px-GraphQL_Logo.svg.png",
+			"link": "https://en.wikipedia.org/wiki/GraphQL"
+		},
+		{
+			"title": "PostgresQL",
+			"body": "",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+			"link": "https://en.wikipedia.org/wiki/PostgreSQL"
+		}
+	]
+}
