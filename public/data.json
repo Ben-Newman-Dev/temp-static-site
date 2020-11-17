@@ -46,7 +46,7 @@
 	"learn": [
 		{
 			"title": "AWS",
-			"body": "I plan on studying and obtaining the associate level of the AWS Certified Solutions Architect. This is to learn about how systems are organised within the Amazon ecosystem",
+			"body": "",
 			"image": "https://media-exp1.licdn.com/dms/image/C4D0BAQGeyEk8mf0enA/company-logo_200_200/0?e=2159024400&v=beta&t=gEulY-0cdIm8a5VQSwk4Yy5IIeIqV7MrxVnKLccOeAc",
 			"link": "https://en.wikipedia.org/wiki/Amazon_Web_Services"
 		},
@@ -67,6 +67,42 @@
 			"body": "",
 			"image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
 			"link": "https://en.wikipedia.org/wiki/PostgreSQL"
+		},
+		{
+			"title": "Apollo",
+			"body": "",
+			"image": "https://miro.medium.com/max/400/0*Y34Xvb6NVAI-5XO7.png",
+			"link": ""
+		},
+		{
+			"title": "Ruby",
+			"body": "",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png",
+			"link": ""
+		},
+		{
+			"title": "JWT",
+			"body": "",
+			"image": "https://coursework.vschool.io/content/images/2016/06/jwt.png",
+			"link": ""
+		},
+		{
+			"title": "Cookies",
+			"body": "",
+			"image": "https://icons-for-free.com/iconfiles/png/512/cookie-1319971784454690183.png",
+			"link": ""
+		},
+		{
+			"title": "REST APIs",
+			"body": "",
+			"image": "https://www.accuzip.com/images/products/api/icons/api-icon-api.png",
+			"link": ""
+		},
+		{
+			"title": "Vim",
+			"body": "",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1022px-Vimlogo.svg.png",
+			"link": ""
 		}
 	]
 }
